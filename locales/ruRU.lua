@@ -1,5 +1,5 @@
-if not(GetLocale() == "ruRU") then
-  return
+if not (GetLocale() == "ruRU") then
+    return
 end
 local AddonName, MPL = ...;
 local L = MPL.L or {}
@@ -7,7 +7,8 @@ local L = MPL.L or {}
 -- Options
 L["Enable Minimap Button"] = "Включить кнопку на миникарте"
 L["If the Minimap Button is enabled"] = "Если кнопка на миникарте включена"
-L["Right click on items to favorite"] = "[ПКМ] - на элементы, чтобы добавить их в избранное"
+L["Right click on items to favorite"] =
+    "[ПКМ] - на элементы, чтобы добавить их в избранное"
 L["Click to toggle AddOn Window"] = "[ЛКМ] - открыть MythicPlusLoot"
 
 -- Armor type
@@ -72,19 +73,19 @@ L["M+12/Valor 6"] = "M+12/Доблесть 6"
 L["M+13/Valor 6"] = "M+13/Доблесть 6"
 L["M+14/Valor 7"] = "M+14/Доблесть 7"
 L["M+15/Valor 8"] = "M+15/Доблесть 8"
-L["M+16/Valor 8"] = "M+16/Доблесть 8"
-L["M+17/Valor 9"] = "M+17/Доблесть 9"
-L["M+18/Valor 9"] = "M+18/Доблесть 9"
-L["M+19/Valor 10"] = "M+19/Доблесть 10"
-L["M+20/Valor 10"] = "M+20/Доблесть 10"
-L["Great Vault +13/Valor 11"] = "Великое Хранилище +13/Доблесть 11"
-L["Great Vault +14/Valor 11"] = "Великое Хранилище +14/Доблесть 11"
-L["Great Vault +15/Valor 12"] = "Великое Хранилище +15/Доблесть 12"
-L["Great Vault +16/Valor 13"] = "Великое Хранилище +16/Доблесть 13"
-L["Great Vault +17/Valor 13"] = "Великое Хранилище +17/Доблесть 13"
-L["Great Vault +18"] = "Великое Хранилище +18"
-L["Great Vault +19"] = "Великое Хранилище +19"
-L["Great Vault +20"] = "Великое Хранилище +20"
+-- L["M+16/Valor 8"] = "M+16/Доблесть 8"
+-- L["M+17/Valor 9"] = "M+17/Доблесть 9"
+-- L["M+18/Valor 9"] = "M+18/Доблесть 9"
+-- L["M+19/Valor 10"] = "M+19/Доблесть 10"
+-- L["M+20/Valor 10"] = "M+20/Доблесть 10"
+-- L["Great Vault +13/Valor 11"] = "Великое Хранилище +13/Доблесть 11"
+-- L["Great Vault +14/Valor 11"] = "Великое Хранилище +14/Доблесть 11"
+-- L["Great Vault +15/Valor 12"] = "Великое Хранилище +15/Доблесть 12"
+-- L["Great Vault +16/Valor 13"] = "Великое Хранилище +16/Доблесть 13"
+-- L["Great Vault +17/Valor 13"] = "Великое Хранилище +17/Доблесть 13"
+-- L["Great Vault +18"] = "Великое Хранилище +18"
+-- L["Great Vault +19"] = "Великое Хранилище +19"
+-- L["Great Vault +20"] = "Великое Хранилище +20"
 
 L["Class"] = "Класс"
 L["All Classes"] = "Все классы"

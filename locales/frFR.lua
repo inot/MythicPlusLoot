@@ -1,5 +1,5 @@
-if not(GetLocale() == "frFR") then
-  return
+if not (GetLocale() == "frFR") then
+    return
 end
 local AddonName, MPL = ...;
 local L = MPL.L or {}
@@ -70,19 +70,19 @@ L["M+12/Valor 6"] = "M+12/Valor 6"
 L["M+13/Valor 6"] = "M+13/Valor 6"
 L["M+14/Valor 7"] = "M+14/Valor 7"
 L["M+15/Valor 8"] = "M+15/Valor 8"
-L["M+16/Valor 8"] = "M+16/Valor 8"
-L["M+17/Valor 9"] = "M+17/Valor 9"
-L["M+18/Valor 9"] = "M+18/Valor 9"
-L["M+19/Valor 10"] = "M+19/Valor 10"
-L["M+20/Valor 10"] = "M+20/Valor 10"
-L["Great Vault +13/Valor 11"] = "Great Vault +13/Valor 11"
-L["Great Vault +14/Valor 11"] = "Great Vault +14/Valor 11"
-L["Great Vault +15/Valor 12"] = "Great Vault +15/Valor 12"
-L["Great Vault +16/Valor 13"] = "Great Vault +16/Valor 13"
-L["Great Vault +17/Valor 13"] = "Great Vault +17/Valor 13"
-L["Great Vault +18"] = "Great Vault +18"
-L["Great Vault +19"] = "Great Vault +19"
-L["Great Vault +20"] = "Great Vault +20"
+-- L["M+16/Valor 8"] = "M+16/Valor 8"
+-- L["M+17/Valor 9"] = "M+17/Valor 9"
+-- L["M+18/Valor 9"] = "M+18/Valor 9"
+-- L["M+19/Valor 10"] = "M+19/Valor 10"
+-- L["M+20/Valor 10"] = "M+20/Valor 10"
+-- L["Great Vault +13/Valor 11"] = "Great Vault +13/Valor 11"
+-- L["Great Vault +14/Valor 11"] = "Great Vault +14/Valor 11"
+-- L["Great Vault +15/Valor 12"] = "Great Vault +15/Valor 12"
+-- L["Great Vault +16/Valor 13"] = "Great Vault +16/Valor 13"
+-- L["Great Vault +17/Valor 13"] = "Great Vault +17/Valor 13"
+-- L["Great Vault +18"] = "Great Vault +18"
+-- L["Great Vault +19"] = "Great Vault +19"
+-- L["Great Vault +20"] = "Great Vault +20"
 
 L["Class"] = "Class"
 L["All Classes"] = "All Classes"

@@ -19,7 +19,7 @@ local function get_slots()
         [12] = L["Off-Hand"],
         [13] = L["Finger"],
         [14] = L["Trinket"],
-        [15] = L["Favorites"],
+        [15] = L["Favorites"]
     }
 
     return gearSlots
@@ -41,13 +41,13 @@ local function get_mythic_labels()
         [11] = L["M+12/Valor 6"],
         [12] = L["M+13/Valor 6"],
         [13] = L["M+14/Valor 7"],
-        [14] = L["M+15/Valor 8"],
-        [15] = L["M+16/Valor 8"],
-        [16] = L["M+17/Valor 9"],
-        [17] = L["M+18/Valor 9"],
-        [18] = L["M+19/Valor 10"],
-        [19] = L["M+20/Valor 10"],
-        [20] = L["M+21/Valor 10"],
+        [14] = L["M+15/Valor 8"]
+        -- [15] = L["M+16/Valor 8"],
+        -- [16] = L["M+17/Valor 9"],
+        -- [17] = L["M+18/Valor 9"],
+        -- [18] = L["M+19/Valor 10"],
+        -- [19] = L["M+20/Valor 10"],
+        -- [20] = L["M+21/Valor 10"]
     }
 
     return mythicLabels
@@ -58,13 +58,13 @@ local function get_dungeons()
     local dungeonTable = {
         -- [L["Dawn of the Infinite: Galakrond's Fall"]] = 1,
         -- [L["Dawn of the Infinite: Murozond's Rise"]] = 2,
-        [L["Dawn of the Infinite"]] = 2,
-        [L["Atal'Dazar"]] = 3,
-        [L["Waycrest Manor"]] = 4,
-        [L["Black Rook Hold"]] = 5,
-        [L["Darkheart Thicket"]] = 6,
-        [L["The Everbloom"]] = 7,
-        [L["Throne of the Tides"]] = 8,
+        [L["Dawn of the Infinite"]] = 1,
+        [L["Atal'Dazar"]] = 2,
+        [L["Waycrest Manor"]] = 3,
+        [L["Black Rook Hold"]] = 4,
+        [L["Darkheart Thicket"]] = 5,
+        [L["The Everbloom"]] = 6,
+        [L["Throne of the Tides"]] = 7
     }
 
     return dungeonTable
@@ -81,7 +81,7 @@ local function dungeon_ids()
         [L["Black Rook Hold"]] = 740,
         [L["Darkheart Thicket"]] = 762,
         [L["The Everbloom"]] = 556,
-        [L["Throne of the Tides"]] = 65,
+        [L["Throne of the Tides"]] = 65
     }
 
     return dungeonIDs
@@ -102,7 +102,7 @@ local function class_ids()
         [L["Monk"]] = 10,
         [L["Druid"]] = 11,
         [L["Demon Hunter"]] = 12,
-        [L["Evoker"]] = 13,
+        [L["Evoker"]] = 13
     }
 
     return classIDs
@@ -197,7 +197,7 @@ local function get_classes()
         [11] = L["Monk"],
         [12] = L["Druid"],
         [13] = L["Demon Hunter"],
-        [14] = L["Evoker"],
+        [14] = L["Evoker"]
     }
 
     return classTable
