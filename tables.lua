@@ -36,18 +36,7 @@ local function get_mythic_labels()
         [6] = L["M+7/Valor 4"],
         [7] = L["M+8/Valor 4"],
         [8] = L["M+9/Valor 5"],
-        [9] = L["M+10/Valor 6"],
-        [10] = L["M+11/Valor 6"],
-        [11] = L["M+12/Valor 6"],
-        [12] = L["M+13/Valor 6"],
-        [13] = L["M+14/Valor 7"],
-        [14] = L["M+15/Valor 8"]
-        -- [15] = L["M+16/Valor 8"],
-        -- [16] = L["M+17/Valor 9"],
-        -- [17] = L["M+18/Valor 9"],
-        -- [18] = L["M+19/Valor 10"],
-        -- [19] = L["M+20/Valor 10"],
-        -- [20] = L["M+21/Valor 10"]
+        [9] = L["M+10/Valor 6"]
     }
 
     return mythicLabels
@@ -56,32 +45,40 @@ MPL_tables.get_mythic_labels = get_mythic_labels
 
 local function get_dungeons()
     local dungeonTable = {
-        -- [L["Dawn of the Infinite: Galakrond's Fall"]] = 1,
-        -- [L["Dawn of the Infinite: Murozond's Rise"]] = 2,
-        [L["Dawn of the Infinite"]] = 1,
-        [L["Atal'Dazar"]] = 2,
-        [L["Waycrest Manor"]] = 3,
-        [L["Black Rook Hold"]] = 4,
-        [L["Darkheart Thicket"]] = 5,
-        [L["The Everbloom"]] = 6,
-        [L["Throne of the Tides"]] = 7
+        [L["Algeth'ar Academy"]] = 1,
+        [L["Brackenhide Hollow"]] = 2,
+        [L["Halls of Infusion"]] = 3,
+        [L["Neltharus"]] = 4,
+        [L["Ruby Life Pools"]] = 5,
+        [L["The Azure Vault"]] = 6,
+        [L["The Nokhud Offensive"]] = 7,
+        [L["Uldaman: Legacy of Tyr"]] = 8,
     }
 
     return dungeonTable
 end
+
+-- L["Algeth'ar Academy"] = "Algeth'ar Academy"
+-- L["Brackenhide Hollow"] = "Brackenhide Hollow"
+-- L["Halls of Infusion"] = "Halls of Infusion"
+-- L["Neltharus"] = "Neltharus"
+-- L["Ruby Life Pools"] = "Ruby Life Pools"
+-- L["The Azure Vault"] = "The Azure Vault"
+-- L["The Nokhud Offensive"] = "The Nokhud Offensive"
+-- L["Uldaman: Legacy of Tyr"] = "Uldaman: Legacy of Tyr"
+
 MPL_tables.get_dungeons = get_dungeons
 
 local function dungeon_ids()
     local dungeonIDs = {
-        -- [L["Dawn of the Infinite: Galakrond's Fall"]] = 1209,
-        -- [L["Dawn of the Infinite: Murozond's Rise"]] = 1209,
-        [L["Dawn of the Infinite"]] = 1209,
-        [L["Atal'Dazar"]] = 968,
-        [L["Waycrest Manor"]] = 1021,
-        [L["Black Rook Hold"]] = 740,
-        [L["Darkheart Thicket"]] = 762,
-        [L["The Everbloom"]] = 556,
-        [L["Throne of the Tides"]] = 65
+        [L["Algeth'ar Academy"]] = 1201,
+        [L["Brackenhide Hollow"]] = 1196,
+        [L["Halls of Infusion"]] = 1204,
+        [L["Neltharus"]] = 1199,
+        [L["Ruby Life Pools"]] = 1202,
+        [L["The Azure Vault"]] = 1203,
+        [L["The Nokhud Offensive"]] = 1198,
+        [L["Uldaman: Legacy of Tyr"]] = 1197,
     }
 
     return dungeonIDs
