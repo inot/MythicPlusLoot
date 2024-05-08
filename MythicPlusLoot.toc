@@ -1,7 +1,7 @@
-## Interface: 100206
+## Interface: 100207
 ## Title: MythicPlusLootUnofficial
 ## Author: Scott Davis
-## Version: 10.2.6
+## Version: 10.2.7
 ## Notes: Gear list from mythic+ dungeons.
 ## SavedVariables: MythicPlusLootDB
 ## IconTexture: Interface\AddOns\MythicPlusLoot\textures\icon.tga
